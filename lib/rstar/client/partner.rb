@@ -1,6 +1,6 @@
 module Rstar
   module Client
-    class PartnerResource < Rstar::Client::BaseResource
+    class Partner < Rstar::Client::Base
       self.element_name = "partner"
     end
   end

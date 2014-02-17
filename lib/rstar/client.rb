@@ -1,6 +1,6 @@
 require "rstar/client/version"
 require "rstar/client/base"
-require "rstar/client/partner_resource"
+require "rstar/client/partner"
 
 module Rstar
   module Client

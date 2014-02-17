@@ -2,7 +2,7 @@ require 'active_resource'
 
 module Rstar
   module Client
-    class BaseResource < ::ActiveResource::Base
+    class Base < ::ActiveResource::Base
       class << self
         def element_path(id, prefix_options = {}, query_options = nil)
           prefix_options, query_options = split_options(prefix_options) if query_options.nil?
