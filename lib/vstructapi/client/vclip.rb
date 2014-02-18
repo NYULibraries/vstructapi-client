@@ -1,7 +1,7 @@
 module Vstructapi
   module Client
-    # # forward declaration
-    # class Vstruct < Vstructapi::Client::Base ; end
+    # forward declaration
+    class Vstruct < Vstructapi::Client::Base ; end
     class Vclip   < Vstructapi::Client::Base
       self.element_name = "vclip"
 
