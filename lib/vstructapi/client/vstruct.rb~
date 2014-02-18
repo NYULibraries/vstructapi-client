@@ -1,7 +1,0 @@
-module VstructApi
-  module Client
-    class Vstruct < VstructApi::Client::Base
-      self.element_name = "vstruct"
-    end
-  end
-end

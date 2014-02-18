@@ -1,15 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rstar/client/version'
+require 'vstruct/client/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "rstar-client"
-  spec.version       = Rstar::Client::VERSION
+  spec.name          = "vstructapi-client"
+  spec.version       = Vstructapi::Client::VERSION
   spec.authors       = ["Joseph Pawletko"]
   spec.email         = ["jgp@nyu.edu"]
   spec.description   = %q{}
-  spec.summary       = %q{Client library for R* Repository}
+  spec.summary       = %q{Client library for vstruct-api application}
   spec.homepage      = ""
   spec.license       = "MIT"
 

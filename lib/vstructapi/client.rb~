@@ -1,9 +1,0 @@
-require "vstruct/client/version"
-require "vstruct/client/base"
-require "vstruct/client/vstruct"
-
-module Vstruct
-  module Client
-    # Your code goes here...
-  end
-end
