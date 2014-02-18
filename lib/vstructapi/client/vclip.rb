@@ -1,3 +1,4 @@
+require_relative './vstruct'
 module Vstructapi
   module Client
     class Vclip < Vstructapi::Client::Base
