@@ -1,10 +1,11 @@
-require_relative './vstruct'
 module Vstructapi
   module Client
-    class Vclip < Vstructapi::Client::Base
+    # # forward declaration
+    # class Vstruct < Vstructapi::Client::Base ; end
+    class Vclip   < Vstructapi::Client::Base
       self.element_name = "vclip"
 
-      belongs_to :vstruct, class: Vstructapi::Client::Vstruct
+      belongs_to :vstruct, class_name: Vstructapi::Client::Vstruct
     end
   end
 end
