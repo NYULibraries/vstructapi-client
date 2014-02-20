@@ -4,7 +4,7 @@
 
 ### To use the gem, you must set the following environment variables:
 ```
-VSTRUCT_API_URL
+VSTRUCTAPI_URL
 VSTRUCTAPI_HTTP_USER
 VSTRUCTAPI_HTTP_PASSWORD
 ```
